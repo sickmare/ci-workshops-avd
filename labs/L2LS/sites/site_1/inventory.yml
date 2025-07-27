@@ -4,6 +4,7 @@ SITE1:
     CVP:
       hosts:
         cvp:
+          ansible_hosts: <gerry-lab2-20250727-2-1-f60e94b2-eos.topo.testdrive.arista.com>
     SITE1_FABRIC:
       children:
         SITE1_SPINES:
